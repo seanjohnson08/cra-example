@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import logo from './logo.svg';
 import './App.css';
 
@@ -6,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <Image src={logo} alt="logo" className="App-logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
